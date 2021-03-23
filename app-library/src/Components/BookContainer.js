@@ -4,8 +4,8 @@ import Book from './Book'
 import BooksJson from "../../public/books/BooksJson.json"
 import Card from "react-bootstrap/Card"
 import CardGroup from "react-bootstrap/CardGroup"
-import Button from "react-bootstrap/Button"
-import Page from './Page'
+// import Button from "react-bootstrap/Button"
+// import Page from './Page'
 
 const BookContainer = () => {
     let books = null;
@@ -20,7 +20,7 @@ const BookContainer = () => {
             return (
 
 
-                <Card>
+                <Card key={id}>
                     <Card.Img variant="top" src="" />
                     <Card.Body>
                         <Card.Title>{data.Title}</Card.Title>

@@ -5,8 +5,8 @@ import Book01 from '../../public/books/book/Book01.json'
 import Book02 from '../../public/books/book/Book02.json'
 import Book03 from '../../public/books/book/Book03.json'
 import Chapter from './Chapter'
-import Page from './Page'
-const publicUrl = process.env.PUBLIC_URL;
+// import Page from './Page'
+// const publicUrl = process.env.PUBLIC_URL;
 
 
 const Book = () => {
